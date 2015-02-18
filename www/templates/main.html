@@ -5,3 +5,10 @@
 <ul>
     <li ng-repeat="(key, value) in params">{{key}} - {{value}}</li>
 </ul>
+
+<button class="btn" ng-click="showUser()">Show user</button>
+<a class="btn" ui-sref="home.user">Test Btn</a>
+
+<div ui-grid="gridOptions"></div>
+
+<ui-view></ui-view>

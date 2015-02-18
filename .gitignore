@@ -29,5 +29,6 @@ build/Release
 node_modules
 lib
 .idea
-
+tmp
+dist
 
